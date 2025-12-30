@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Analysis Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .metric { background: #f5f5f5; padding: 20px; margin: 10px; border-radius: 8px; }
+        .high-risk { color: #d9534f; font-weight: bold; }
+        .medium-risk { color: #f0ad4e; }
+        .low-risk { color: #5cb85c; }
+    </style>
+</head>
+<body>
+    <h1>Phishing Analysis Dashboard</h1>
+    <p>Generated: 2025-12-24 17:33</p>
+    
+    <div class="metric">
+        <h3>Overview</h3>
+        <p>Total Records Analyzed: 15</p>
+        <p>Verification Rate: 100.0%</p>
+    </div>
+    
+    <div class="metric">
+        <h3>Risk Assessment</h3>
+        <p class="high-risk">High Risk: 0</p>
+        <p class="medium-risk">Medium Risk: 0</p>
+        <p class="low-risk">Low Risk: 15</p>
+        <p>Average Risk Score: 1.2/10</p>
+    </div>
+    
+    <div class="metric">
+        <h3>Top Targets</h3>
+        <ul>
+<li>PayPal: 1 attempts</li><li>Bank of America: 1 attempts</li><li>Microsoft: 1 attempts</li><li>Apple: 1 attempts</li><li>Google: 1 attempts</li>
+        </ul>
+    </div>
+    
+    <div class="metric">
+        <h3>Training Impact</h3>
+        <p>Simulated Click Rate: {metrics['simulated_click_rate']:.1f}%</p>
+        <p>Projected Reduction: 67% with training</p>
+    </div>
+</body>
+</html>

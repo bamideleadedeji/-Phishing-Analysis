@@ -1,0 +1,18 @@
+{
+  "analysis_date": "2025-12-24",
+  "total_records": 15,
+  "verified_count": 15,
+  "online_count": 10,
+  "top_targets": {
+    "PayPal": 1,
+    "Bank of America": 1,
+    "Microsoft": 1,
+    "Apple": 1,
+    "Google": 1
+  },
+  "risk_distribution": {
+    "Low Risk": 15
+  },
+  "avg_risk_score": 1.1904761904761902,
+  "simulated_click_rate": 66.66666666666666
+}
